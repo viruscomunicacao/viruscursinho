@@ -1,0 +1,216 @@
+@media (min-width: 992px){
+    .typo-line{
+        padding-left: 140px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .typo-line .category{
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0px;
+        position: absolute;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f4f3ef;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f4f3ef;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f4f3ef;
+}
+
+.icon-section {
+	margin: 0 0 3em;
+	clear: both;
+	overflow: hidden;
+}
+.icon-container {
+	width: 240px;
+	padding: .7em 0;
+	float: left;
+	position: relative;
+	text-align: left;
+}
+.icon-container [class^="ti-"],
+.icon-container [class*=" ti-"] {
+	color: #000;
+	position: absolute;
+	margin-top: 3px;
+	transition: .3s;
+    font-size: 1.2em;
+}
+.icon-container:hover [class^="ti-"],
+.icon-container:hover [class*=" ti-"] {
+	font-size: 2.2em;
+	margin-top: -5px;
+}
+.icon-container:hover .icon-name {
+	color: #000;
+}
+.icon-name {
+	color: #aaa;
+	margin-left: 35px;
+	font-size: .8em;
+	transition: .3s;
+}
+.icon-container:hover .icon-name {
+	margin-left: 45px;
+}
+
+.places-buttons .btn{
+    margin-bottom: 30px
+}
+.sidebar .nav > li.active-pro{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+.sidebar .nav > li.active-pro a{
+    background: rgba(255, 255, 255, 0.14);
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.simple-text span {
+  margin-left: 35px;
+}
+
+.title-table {
+  text-align: left;
+}
+
+.actions {
+  text-align: right;
+}
+
+.area-thumbnail-album {
+  width: 100%;
+  text-align: right;
+}
+
+.area-thumbnail-album img{
+  object-fit: cover;
+  width: 100%;
+  height: 180px;
+}
+
+.btn-remove-photo {
+  border-radius: 2px;
+  margin-bottom: -2px;
+}
+
+.header-login {
+  color: #F3F3F5;
+  padding-top: 25px;
+}
+
+.menu-header-login {
+  font-size: 16px;
+  padding-top: 25px;
+  list-style: none;
+}
+
+.menu-header-login li {
+  display: inline;
+  padding-left: 25px;
+}
+
+.card-header {
+  padding: 20px 15px 0px;
+  position: relative;
+  border-radius: 3px 3px 0 0;
+  z-index: 3;
+}
+
+.card-content, .card-footer {
+  padding: 15px;
+}
+
+.copyright-custom a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.card-title {
+  margin: 0;
+  color: #252422;
+  font-weight: 300;
+}
+
+.full-page-background {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  display: block;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center center;
+}
+
+.page-login {
+  font-family: 'Muli', Arial, sans-serif;
+}
+
+.full-page {
+  min-height: calc(100vh - 70px);
+}
+
+.full-page > .content {
+  position: relative;
+  z-index: 4;
+}
+
+.login-page {
+  padding-top: 20vh;
+}
+
+.navbar-transparent {
+  padding-top: 15px;
+  background-color: transparent;
+  border-bottom: 1px solid transparent;
+}
+
+.navbar-absolute {
+  position: absolute;
+  width: 100%;
+  z-index: 1030;
+}
+
+.navbar-absolute a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer-transparent {
+  position: relative;
+  z-index: 4;
+  background-size: cover;
+  background-color: transparent;
+}
+
+.table-upgrade td:nth-child(2),
+.table-upgrade td:nth-child(3){
+    text-align: center;
+}
+
+.parallax-wrapper {
+  background-image: url('../img/background-login.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
